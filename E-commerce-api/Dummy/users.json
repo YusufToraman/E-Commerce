@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5e30275d141401679e3832a1",
+    "role": "admin",
+    "name": "Admin",
+    "email": "yemeksepeti.info@gmail.com",
+    "password": "123456",
+    "phoneNumber": "5454215760"
+  },
+  {
+    "_id": "5e2866280427c1ff0dd2b5cb",
+    "role": "user",
+    "name": "Yusuf Toraman",
+    "email": "yusuf-toraman@hotmail.com",
+    "password": "123456",
+    "phoneNumber": "5454215760"
+  },
+  {
+    "_id": "5e300f0ffbb6b05ee9037fd2",
+    "role": "user",
+    "name": "Yunus Emre Tat",
+    "email": "yemretat@gmail.com",
+    "password": "123456",
+    "phoneNumber": "5454215760"
+  }
+]

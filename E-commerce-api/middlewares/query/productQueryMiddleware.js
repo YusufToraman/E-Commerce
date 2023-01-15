@@ -1,0 +1,42 @@
+const asyncErrorWrapper = require("express-async-handler");
+const { searchHelper, populateHelper, productSortHelper, paginationHelper } = require("./queryMiddlewareHelpers");
+
+
+const productQueryMiddleware = function(model, options){
+
+    return asyncErrorWrapper(async function(req,res,next){
+        //Initial Query
+        let query = model.find();
+
+        query = searchHelper("title", query, req)
+
+        //if(options & options.population){
+            query = populateHelper(query, options.population)
+        //}
+
+        query = productSortHelper(query,req);
+
+
+        const total = await model.countDocuments();
+        
+        const paginationResult = await paginationHelper(total,query,req);
+
+        query = paginationResult.query;
+
+        const pagination = paginationResult.pagination;
+
+        const queryResults = await query;
+
+        res.queryResults = {
+            success: true,
+            count: queryResults.length,
+            pagination: pagination,
+            data: queryResults
+        }
+
+        next();
+
+    });
+};
+
+module.exports = productQueryMiddleware;

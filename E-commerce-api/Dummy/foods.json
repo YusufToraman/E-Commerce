@@ -1,0 +1,66 @@
+[
+    {
+        "product" : "5e302a02685d0667c54d42ea",
+        "name": "tavada Alabalık",
+        "ingredients" : "Tavada yapcam balık malzemeli",
+        "user" : "5e30275d141401679e3832a1",
+        "price": 45
+    },
+    {
+        "product": "5e302a02685d0667c54d42ea",
+        "name": "Alabalık Kiremitte",
+        "ingredients" : "Alabalık, sebze",
+        "user" : "5e30275d141401679e3832a1",
+        "price": 65
+    },
+    {
+        "product": "5e302a02685d0667c54d42ea",
+        "name": "Kızartma Alabalık",
+        "ingredients" : "Alabalık, sebze",
+        "user" : "5e30275d141401679e3832a1",
+        "price": 60
+    },
+    {
+        "product": "5e302a02685d0667c54d42ea",
+        "name": "Günün Çorbası",
+        "ingredients" : "Special",
+        "user" : "5e30275d141401679e3832a1",
+        "price": 15
+    },
+    {
+        "product" : "5e302a50f4d40cf362859e04",
+        "name": "Yarım Koko",
+        "ingredients" : "koko, biber, domates",
+        "user" : "5e2866280427c1ff0dd2b5cb",
+        "price": 40
+    },
+    {
+        "product" : "5e302a50f4d40cf362859e04",
+        "name": "Uzay Koko",
+        "ingredients" : "Safi Koko",
+        "user" : "5e2866280427c1ff0dd2b5cb",
+        "price": 80
+    },
+    {
+        "product" : "5e302a50f4d40cf362859e04",
+        "name": "Eşşek Koko",
+        "ingredients" : "Eşşek Bağırsağından",
+        "user" : "5e2866280427c1ff0dd2b5cb",
+        "price": 25
+    },
+    {
+        "product" : "5e302a556f38949cf14f01de",
+        "name": "Eşşek Burger",
+        "ingredients" : "Et, Cheddar, Turşu",
+        "user" : "5e300f0ffbb6b05ee9037fd2",
+        "price": 65
+    },
+    {
+        "product" : "5e302a556f38949cf14f01de",
+        "name": "Special Yunus Emre Fan Burger",
+        "ingredients" : "Et, Cheddar, Turşu, double et, marul, barbekü, patates, karamelize soğan",
+        "user" : "5e300f0ffbb6b05ee9037fd2",
+        "price": 90
+    }
+]
+
