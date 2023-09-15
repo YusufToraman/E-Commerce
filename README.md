@@ -1,1 +1,1 @@
-# E-Commerce
+Implemented the services, and database architecture of an basic E-Commerce example with Node.js. Implemented user authentication with jsonwebtoken library. Implemented MongoDB object modeling tool designed to work in an asynchronous environment with mongoose. Implemented password hashing with bcryptjs library. Making REST requests against IMAP and SMTP servers and sending webhooks with nodemailer library. Used other fundamental libraries such as express-async-handler, multer, slugify, dotenv. Used Postman to test and modify APIs.
